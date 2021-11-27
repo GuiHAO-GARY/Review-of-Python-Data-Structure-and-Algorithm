@@ -1,6 +1,8 @@
 # Create novel class to solve various problems
 class Fraction:
-
+    """
+    Create an abstract data structure to represent fraction
+    """
     def __init__(self, top, bottom):
         # Create a fraction instance
         if top == int(top) and bottom == int(bottom):
@@ -48,6 +50,7 @@ class Fraction:
         return first_num == second_num
 
 
+# *****************************************************
 # Inheritance: Logistic Gate and Circuit
 class LogicGate:
     def __init__(self, name):
